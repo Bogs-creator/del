@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us | WebTools</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Segoe UI', sans-serif; background: #f4f7fb; color: #333; }
+        header { background: #1e3a8a; color: white; padding: 1rem 5%; display: flex; justify-content: space-between; align-items: center; }
+       .logo { font-size: 1.5rem; font-weight: bold; }
+        nav ul { list-style: none; display: flex; gap: 2rem; }
+        nav a { color: white; text-decoration: none; font-weight: 500; }
+        nav a:hover, nav a.active { color: #60a5fa; border-bottom: 2px solid #60a5fa; }
+        main { padding: 2rem 5%; min-height: 80vh; }
+        h1 { text-align: center; color: #1e3a8a; margin-bottom: 1rem; }
+       .team-intro { text-align: center; margin-bottom: 2rem; }
+       .team-container { display: flex; gap: 2rem; justify-content: center; flex-wrap: wrap; }
+       .member-card { background: white; padding: 1.5rem; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); width: 280px; }
+       .member-card h3 { color: #1e3a8a; margin-bottom: 1rem; }
+        footer { background: #1e3a8a; color: white; text-align: center; padding: 2rem 5%; margin-top: 3rem; }
+       .socials { margin: 1rem 0; }
+       .socials a { color: #60a5fa; margin: 0 1rem; text-decoration: none; }
+       .socials a:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">WebTools</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="tools.html">Tools</a></li>
+                <li><a href="about.html" class="active">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Meet the Team</h1>
+        <p class="team-intro">We are 3rd year BSEd students passionate about tech and education.</p>
+
+        <div class="team-container">
+            <div class="member-card">
+                <h3>ANTHONY D. BOGAOAN</h3>
+                <p><strong>Age:</strong> 21</p>
+                <p><strong>Course:</strong> BSIT - 2</p>
+                <p><strong>Hobbies:</strong> Gaming, Anime</p>
+                <p><strong>Motto:</strong> "Do what you want, but know your limits."</p>
+            </div>
+
+            <div class="member-card">
+                <h3>BEINJO MARTIN</h3>
+                <p><strong>Age:</strong> 20</p>
+                <p><strong>Course:</strong> BSEd - English</p>
+                <p><strong>Hobbies:</strong> Reading, Writing, K-Drama</p>
+                <p><strong>Motto:</strong> "Learn today, lead tomorrow."</p>
+            </div>
+
+            <div class="member-card">
+                <h3>JERO RAPOSAS</h3>
+                <p><strong>Age:</strong> 22</p>
+                <p><strong>Course:</strong> BSIT - 2</p>
+                <p><strong>Hobbies:</strong> Gaming, Photography, Music</p>
+                <p><strong>Motto:</strong> "Innovate or evaporate."</p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>Contact Us:</p>
+        <div class="socials">
+            <a href="mailto:webtools@gmail.com">Email</a>
+            <a href="https://facebook.com" target="_blank">Facebook</a>
+            <a href="https://github.com" target="_blank">GitHub</a>
+        </div>
+        <p>&copy; 2026 WebTools Team. All rights reserved.</p>
+    </footer>
+</body>
+</html>
